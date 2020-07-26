@@ -1,0 +1,391 @@
+.card-header .fa {
+
+  transition: .3s transform ease-in-out;
+
+}
+
+.image
+{
+  margin-left: 30px;
+  
+}
+
+img
+{
+  margin-left: 100px;
+}
+
+.card-header:hover{
+
+    font-size: 102%;
+
+    transition: 0.5s;
+
+}
+#onetap{
+    font-size: 40px;
+    margin-left: 40px;
+    color: #0f0f0f;
+    font-weight: lighter;
+    margin-top: -30px;
+}
+.card-header .collapsed .fa {
+
+  transform: rotate(180deg);
+
+}
+
+.card {
+
+  
+    width: 330px;
+
+    height: auto;
+
+    margin: 20px;
+
+    border: 1px solid #0f0f0f;
+
+    padding: 15px 20px;
+
+}
+
+.card-header a, .card-body a{
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #0f0f0f;
+
+}
+
+#question
+{
+  margin-left: 20px;
+       margin-top: 35px;
+      
+}
+#info
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#container {
+    margin-top: -80px;
+}
+
+h1 {
+
+    margin-left: 220px;
+
+}
+
+.card{
+
+   
+
+   border : 1px solid;
+
+  -webkit-transition : border 500ms ease-out;
+
+  -moz-transition : border 500ms ease-out;
+
+  -o-transition : border 500ms ease-out;
+
+  transition : border 500ms ease-out;
+
+}
+
+#one{
+
+  background: #F9DCDC;
+  border-color: #F6352C
+}
+
+#two{
+
+  background: #E3F7D9;
+  border-color: #35820E;
+
+
+}#three{
+
+  background: #F9F9C3;
+  border-color: #CDCC05; 
+
+
+}#four{
+
+  background: #CAE9F6;
+  border-color: #16B6F9; 
+
+
+
+}#five{
+
+  background: #EFF3F5;
+  border-color: #A9AAAA; 
+  top: 380px;
+  left: 400px;
+}#six{
+  border-color: #FFF;
+}
+
+.card:hover{
+
+    border: 1px solid aqua;
+
+}
+
+.card-header {
+
+    height: 150px;
+
+}
+
+#four{
+
+    float: left;
+
+} 
+
+
+
+
+
+/* -----------------> can start accordion style copy from here ------------------------*/
+
+#icns {
+
+    float: left;
+
+    font-size: 55px;
+
+    margin-top: 35px;
+
+    margin-left: 53px;
+
+    color: orangered;
+
+    -webkit-text-stroke: 1px white;
+
+}
+
+
+
+.accordion-started.accordion-bral {
+
+  min-height: 0;
+
+  min-width: 220px;
+
+  width: 100%;
+
+  background-color: #FFF;
+
+  margin: 0px!important;
+
+  color: #484848;
+
+}
+
+.accordion-started.accordion-bral img {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.accordion-started.accordion-bral .ac-label {
+
+  font-family: Arial, sans-serif;
+
+  padding: 20px 20px;
+
+  position: relative;
+
+  display: block;
+
+  height: auto;
+
+  cursor: pointer;
+
+  color: #0f0f0f;
+
+  border-bottom: 1px solid lightgrey;
+
+    
+
+
+
+  line-height: 33px;
+
+  font-size: 15px;
+
+  font-weight: 300;
+
+  margin-bottom: 5px;
+
+}
+
+
+
+.accordion-started.accordion-bral input + .ac-label  {
+
+  -webkit-transition: all 0.3s ease-in-out;
+
+  -moz-transition: all 0.3s ease-in-out;
+
+  -o-transition: all 0.3s ease-in-out;
+
+  -ms-transition: all 0.3s ease-in-out;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+.accordion-started.accordion-bral input:checked + .ac-label,
+
+.accordion-started.accordion-bral input:checked + .ac-label:active {
+
+  
+
+}
+
+.accordion-started.accordion-bral input.ac-input {
+
+  display: none;
+
+}
+
+.accordion-started.accordion-bral .article {
+
+  overflow: hidden;
+
+  height: 0px;
+
+  max-height: auto;
+
+  -webkit-transition: all 0.3s ease-in-out;
+
+  -moz-transition: all 0.3s ease-in-out;
+
+  -o-transition: all 0.3s ease-in-out;
+
+  -ms-transition: all 0.3s ease-in-out;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+.accordion-started.accordion-bral .article p {
+
+  line-height: 23px;
+
+  padding-left: 5px;
+
+}
+
+.accordion-started.accordion-bral input:checked ~ .article i {
+
+  -webkit-transition: all 0.5s ease-in-out;
+
+  -moz-transition: all 0.5s ease-in-out;
+
+  -o-transition: all 0.5s ease-in-out;
+
+  -ms-transition: all 0.5s ease-in-out;
+
+  transition: all 0.5s ease-in-out;
+
+}
+
+.accordion-started.accordion-bral input:checked ~ .article.ac-content {
+
+  height: auto;
+
+}
+
+
+
+.accordion-started.accordion-bral i {
+
+  position: absolute;
+
+  transform: translate(-30px, 0);
+
+  margin-top: 16px;
+
+  right: 0;
+
+}
+
+.accordion-started.accordion-bral input:checked ~ .ac-label i:before {
+
+  transform: translate(2px, 0) rotate(-45deg);
+
+}
+
+.accordion-started.accordion-bral input:checked ~ .ac-label i:after {
+
+  transform: translate(-2px, 0) rotate(45deg);
+
+}
+
+.accordion-started.accordion-bral i:before, .accordion-bral i:after {
+
+  content: "";
+
+  position: absolute;
+
+  background-color: #173B6B;
+
+  width: 3px;
+
+  height: 9px;
+
+}
+
+.accordion-started.accordion-bral i:before {
+
+  transform: translate(-2px, 0) rotate(-45deg);
+
+}
+
+.accordion-started.accordion-bral i:after {
+
+  transform: translate(2px, 0) rotate(45deg);
+
+}
+
+
+
+.accordion-started ul.ac-list {
+
+  padding-left: 40px;
+
+  list-style-type: disc;  
+
+}
+
+#info{
+    position: absolute;
+    top:900px;  
+}
+
+
+
+/* ---------- accordion style end --------------------------------------- */
+
+box5
+{
+  float: left;
+}
+
+
+
+
+
+
